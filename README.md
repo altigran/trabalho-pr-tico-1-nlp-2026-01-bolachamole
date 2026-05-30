@@ -5,12 +5,15 @@
 ```pip install -r requirements.txt```
 
 ### Setando a chave de API
-O trabalho usa modelos disponíveis na API da [Nvidia](https://build.nvidia.com). Deve-se adquirir uma chave dessa API e colocá-la num arquivo .env desse modo:
+O trabalho usa modelos disponíveis na API da [Nvidia](https://build.nvidia.com). Deve-se adquirir uma chave de acesso e rodar este comando (ou o equivalente na shell utilizada) no terminal:
 
-```API_KEY=sua chave aqui```
+```export API_KEY=sua chave aqui```
 
-Este arquivo deve estar na pasta principal do projeto.
+Substitua "sua chave aqui" pela chave obtida.
 
 ### Executando o pipeline
 Após concluir os passos anteriores, deve-se executar o programa principal:
+
 ```python3 main.py```
+
+Os resultados serão encontrados na pasta results.
